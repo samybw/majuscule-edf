@@ -1,5 +1,5 @@
 
-var phrase  = process.argv[2];
+var phrase = process.argv[2];
 var i = 0
 resultat = "";
 while (i < phrase.length) {
