@@ -3,14 +3,15 @@ var phrase = process.argv[2];
 var i = 0
 resultat = "";
 while (i < phrase.length) {
+
     if ( i % 2 == 0 ){
        resultat += phrase[i].toLowerCase();
     }else{ 
      resultat += phrase[i].toUpperCase();
     }
     i++
+    
 }
-
 console.log(resultat);
 
 
